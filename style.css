@@ -1,0 +1,95 @@
+/* GENERAL############################################################ */
+html { font-size: 1vw; }
+body{
+	font-family: Lato, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	font-size: 14px;
+}
+
+.backround {
+	background-image: url("ref/DPM1080.png");
+	background-size: cover;
+	width: 100%;
+	height: auto;
+  }
+		
+/* POPUP ############################################################ */
+
+.split {
+	height: 70vh;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+	left: 0;
+	background-color: #111;
+  }
+  
+  /* Control the right side */
+  .right {
+	right: 0;
+	background-color: #111;
+  }
+
+/* NAVIGATION BAR ############################################################ */
+.navbar {
+	width: 100%;
+	background-color: #333;
+	opacity: 0.9;
+	position: fixed;
+	z-index: 2;
+	-webkit-backdrop-filter: blur(10em);
+	backdrop-filter: blur(10em);
+	
+  }
+  
+  .navbar a {
+	float: left;
+	padding: 10px;
+	color: #ccc;
+	text-decoration: none;
+	font-size: 16px;
+	width: 13%; /* six links of equal widths */
+	text-align: center;
+  }
+
+  .navbar l {
+	float: left;
+	padding: 10px;
+	color: #ccc;
+	text-decoration: none;
+	height: 20px;
+	width: 12%; /* six links of equal widths */
+	text-align: center;
+  }
+  
+  .navbar a:hover {
+	color: #fff;
+  }
+  
+  .navbar a.active {
+	color:#999
+  }
+
+
+  
+  @media screen and (max-width: 850px) {
+	.navbar a {
+	  display: none;
+	}
+	.navbar l {
+		float: left;
+		padding: 10px;
+		color: #ccc;
+		text-decoration: none;
+		height: 28px;
+		width: 100%; /* six links of equal widths */
+		text-align: center;
+	  }
