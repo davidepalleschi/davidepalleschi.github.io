@@ -5,7 +5,6 @@ body{
 	font-family: "Lato", Helvetica, sans-serif;
 	margin:0;
 	padding:0;
-	min-height: 300vh;
 	background-color: #111;
 	animation: body 1s linear;
 }
@@ -70,7 +69,7 @@ body{
 	background: rgba(49, 49, 49, 0.7);
 	position: fixed;
 	z-index: 2;
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(16px);
 }
 
   
