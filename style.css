@@ -5,7 +5,7 @@ body{
 	font-family: "Lato", Helvetica, sans-serif;
 	margin:0;
 	padding:0;
-	min-height: 1000vh;
+	min-height: 300vh;
 	background-color: #111;
 	animation: body 1s linear;
 }
@@ -23,7 +23,7 @@ body{
 
   @keyframes scale {
 	  to {
-		  transform: translateY(-2500vh);
+		  transform: translateY(-200rem);
 		  
 	  }
   } 
