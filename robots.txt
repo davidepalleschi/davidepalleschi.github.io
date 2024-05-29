@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://davidepalleschi.github.io/sitemap.xml
