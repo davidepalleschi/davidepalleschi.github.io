@@ -2,7 +2,7 @@
 layout: page
 title: Privacy-oriented Object Detection 
 description: Detectiong people and action in low-resolution images
-img: assets/img/12.jpg
+img: assets/img/project/privacy.png
 importance: 1
 category: work
 related_publications: true
