@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 I am deeply passionate about Artificial Intelligence and Computer Vision, dedicating myself to advancing these transformative technologies through innovative and impactful projects. My journey in AI and Computer Vision is driven by a commitment to pushing the boundaries of what’s possible, continually striving to develop cutting-edge solutions that address real-world challenges.
 
-I hold a Master’s Degree in Artificial Intelligence and Robotics, where I completed a thesis titled "Privacy-oriented Object Detection: Detecting People and Actions in Low-Resolution Images." This project involved testing various models, including YOLOv8, and experimenting with multiple datasets, one of which I created myself. I explored a range of preprocessing and postprocessing techniques to achieve stable tracking of people in videos, overcoming the challenge of adapting models to effectively use very low-resolution, blurred images.
+I hold a Master’s Degree in Artificial Intelligence and Robotics, where I completed a thesis titled "Privacy-oriented Object Detection: Detecting People and Actions in Low-Resolution Images." This project involved testing various models, including YOLOv8, and experimenting with multiple datasets, one of which I created myself. I explored a range of preprocessing and postprocessing techniques to achieve stable tracking of people in videos, overcoming the challenge of adapting models to effectively use very low-resolution, blurred images. The project resulted in a significant improvement in detection accuracy, with a 400% increase in performance on very low-resolution videos, paving the way for more effective surveillance and privacy-preserving applications.
 
 My technical expertise includes proficiency in Python, C/C++, and JavaScript, as well as a deep understanding of libraries and frameworks such as PyTorch, OpenCV, and Numpy. I have developed skills to detect and address issues like model overfitting and poor generalization, ensuring robust and reliable performance in diverse scenarios.
 
@@ -32,8 +32,7 @@ In addition to my professional work, I have a keen interest in IoT and smart hom
 
 I'm particularly excited about the intersection of artificial intelligence and the Internet of Things (IoT). My aspiration is to develop advanced smart home systems capable of autonomously managing domestic environments by monitoring activities within the home and responding appropriately.
 
-In my free time, I stay engaged with the latest advancements in AI, program embedded devices, and design home automation systems. I am committed to continuous learning and contributing to impactful projects that harness the power of AI to create innovative solutions for real-world applications.
-
+In my free time, I stay engaged with the latest advancements in AI, program embedded devices, and design home automation systems. My ultimate goal is to contribute to transformative projects that harness the power of AI to create innovative solutions for real-world applications, making a positive difference in people's lives.
 
 
 
