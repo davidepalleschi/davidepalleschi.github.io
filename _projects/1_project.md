@@ -1,25 +1,18 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Privacy-oriented Object Detection 
+description: Detectiong people and action in low-resolution images
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Leveraging state-of-the-art object detection models like YOLOv8 and pioneering preprocessing techniques such as motion stacking, I've developed a sophisticated system capable of accurately identifying individuals and their actions in extremely low-resolution settings (64x36 pixels). With a focus on preserving privacy in sensitive areas like homes and optimizing computational efficiency for real-time operation on embedded devices, my project not only advances the field of computer vision but also holds immense practical implications for privacy-preserving surveillance technologies in real-world applications.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -32,6 +25,7 @@ To give your project a background in the portfolio page, just add the img tag to
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
