@@ -7,7 +7,7 @@ subtitle: Computer Vision Engineer
 profile:
   align: right
   image: dav_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   #more_info: >
   #  <p>+39 3884331237</p>
   #  <p>davidepalleschi96@gmail.com</p>
