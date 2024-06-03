@@ -13,6 +13,8 @@ Leveraging state-of-the-art object detection models like YOLOv8 and pioneering p
     {% include video.liquid path="assets/video/Demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
 </div>
 
+The system employs quantization, allowing it to run on a basic PC without a GPU at 2 ms per inference. This makes it capable of real-time performance and simultaneous operation in multiple rooms.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
