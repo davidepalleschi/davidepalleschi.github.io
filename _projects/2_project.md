@@ -4,8 +4,7 @@ title: Omnisensor
 description: A DIY device for presence detection and monitoring environmental conditions
 img: assets/img/project/omni16_9.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: university
 ---
 
 Every project has a beautiful feature showcase page.

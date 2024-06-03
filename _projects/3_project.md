@@ -5,7 +5,7 @@ description: a project that redirects to another website
 img: assets/img/project/homeass.webp
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
