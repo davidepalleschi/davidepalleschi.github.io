@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: The Maze Game
 description: another without an image
 img: /assets/img/12.jpg
 importance: 3
-category: fun
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
