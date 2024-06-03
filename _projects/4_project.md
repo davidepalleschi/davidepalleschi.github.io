@@ -2,9 +2,9 @@
 layout: page
 title: The Maze Game
 description: another without an image
-img: assets/img/project/WebGL_Logo.svg.png
+img: assets/img/project/webgl.png
 importance: 3
-category: fun
+category: university
 ---
 
 Every project has a beautiful feature showcase page.

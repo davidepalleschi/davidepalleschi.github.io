@@ -2,7 +2,7 @@
 layout: page
 title: Smart Home
 description: a project that redirects to another website
-img: assets/img/project/homeass.webp
+img: assets/img/project/homeass16.png
 redirect: https://unsplash.com
 importance: 3
 category: fun
