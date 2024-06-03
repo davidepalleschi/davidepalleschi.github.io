@@ -2,7 +2,7 @@
 layout: page
 title: The Maze Game
 description: another without an image
-img: /assets/img/12.jpg
+img: assets/img/project/WebGL_Logo.svg.png
 importance: 3
 category: work
 ---
