@@ -7,7 +7,9 @@ importance: 2
 category: fun
 ---
 
-
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/project/omni16_9.jpg" title="" class="img-fluid rounded z-depth-1" %}
+</div>
 
 In this project, I honed my skills in electronics by integrating multiple sensors using various protocols such as UART, I2C, and I2S to develop a device with unique capabilities.
 
