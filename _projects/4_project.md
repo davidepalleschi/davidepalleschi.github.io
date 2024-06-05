@@ -1,11 +1,15 @@
 ---
 layout: page
 title: The Maze Game
-description: a university project utilizing WebGL
+description: A university project utilizing WebGL
 img: assets/img/project/webgl.png
 importance: 3
 category: university
 ---
+
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/project/lab.png" title="" class="img-fluid rounded z-depth-1" %}
+</div>
 
 During my master's degree in Artificial Intelligence and Robotics, I developed an individual project for the Interactive Graphics course. This project involved creating a simple video game using the WebGL library, which required me to learn the fundamentals of 3D modeling, camera positioning, and object manipulation. I also gained skills in animating characters to ensure smooth movements and understanding the rendering process to effectively send information to the graphics card.
 
