@@ -24,7 +24,7 @@ I am an AI Engineer currently working at **DeepPlants** , with a specific focus 
 
 I hold a Master’s Degree in **Artificial Intelligence and Robotics** , with a thesis titled ["Privacy-oriented Object Detection: Detecting People and Actions in Low-Resolution Images"](/projects/1_project/). While my academic roots are in Computer Vision and **YOLOv8**, I have successfully transitioned my engineering mindset to NLP, applying rigorous testing to model reasoning.
 
-My technical expertise centers on **Python**, **PyTorch**, and **Hugging Face**. I specialize in optimizing models using **LoRA/PEFT** techniques and orchestrating complex, tool-using agents with **LangGraph** and **LangChain**. I excel in creating evaluation pipelines to measure model reliability and ensure robust performance in production.
+My technical expertise centers on **Python**, **PyTorch**, and **Hugging Face**. I specialize in optimizing models using **LoRA/PEFT** techniques and orchestrating complex, tool-using agents with **LangGraph** and **LangChain**. I excel in creating evaluation pipelines to measure model reliability and ensure robust performance.
 
 I thrive in R&D environments where I can combine experimentation with practical engineering. 
 
