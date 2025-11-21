@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Computer Vision Engineer
+subtitle: AI Engineer | LLM Specialist
 
 profile:
   align: right
@@ -20,12 +20,14 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-I am passionate about Artificial Intelligence and Computer Vision, dedicated to advancing these technologies through innovative projects. My journey in AI is driven by a commitment to pushing boundaries and developing solutions for real-world challenges.
+I am an AI Engineer currently working at **DeepPlants** , with a specific focus on **Generative AI** and **Large Language Models (LLMs)**. My professional approach covers the entire lifecycle of AI development: from the research-heavy side of **Fine-Tuning** models  to the architectural challenge of building autonomous **Agentic Systems**.
 
-I hold a Master’s Degree in Artificial Intelligence and Robotics, with a thesis titled ["Privacy-oriented Object Detection: Detecting People and Actions in Low-Resolution Images"](/projects/1_project/)  This project involved testing models like YOLOv8 and creating custom datasets, achieving a 400% improvement in detection accuracy for low-resolution videos.
+I hold a Master’s Degree in **Artificial Intelligence and Robotics** , with a thesis titled ["Privacy-oriented Object Detection: Detecting People and Actions in Low-Resolution Images"](/projects/1_project/). While my academic roots are in Computer Vision and **YOLOv8**, I have successfully transitioned my engineering mindset to NLP, applying rigorous testing to model reasoning.
 
-My technical expertise includes **Python, C/C++, JavaScript**, and libraries such as **PyTorch, OpenCV, and Numpy**. I excel in detecting and addressing issues like model overfitting, ensuring robust performance in diverse scenarios.
+My technical expertise centers on **Python**, **PyTorch**, and **Hugging Face**. I specialize in optimizing models using **LoRA/PEFT** techniques and orchestrating complex, tool-using agents with **LangGraph** and **LangChain**. I excel in creating evaluation pipelines to measure model reliability and ensure robust performance in production.
 
-I thrive in collaborative environments, leveraging strong communication skills to resolve challenges. Beyond professional work, I am interested in [IoT and smart home technologies](/projects/3_project/), creating devices and learning [electronics, PCB design, and 3D modeling.](/projects/2_project/)
+I thrive in R&D environments where I can combine experimentation with practical engineering. 
 
-Excited about the intersection of AI and IoT, I aspire to develop smart home systems that autonomously manage domestic environments. In my free time, I stay engaged with AI advancements and home automation, aiming to contribute to transformative projects that positively impact lives.
+Beyond professional work, I am interested in [IoT and smart home technologies](/projects/3_project/), exploring how AI can interact with the physical world, and practicing [electronics, PCB design, and 3D modeling.](/projects/2_project/)
+
+Driven by technical curiosity, I aspire to build intelligent systems that solve real-world problems. In my free time, I stay engaged with the latest AI advancements, aiming to contribute to projects that bridge the gap between digital intelligence and daily life.
