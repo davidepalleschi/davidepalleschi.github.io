@@ -145,7 +145,7 @@ function StarField({ config }: StarFieldProps) {
 export function HeroBackground() {
     const [isOpen, setIsOpen] = useState(false);
     const [config, setConfig] = useState({
-        count: 1500,
+        count: 1200,
         size: 0.025,
         minRadius: 1.5,
         maxRadius: 7.0,
@@ -157,7 +157,7 @@ export function HeroBackground() {
     return (
         <>
             <div className="absolute inset-0 z-0 h-full w-full bg-background pointer-events-auto">
-                <Canvas camera={{ position: [0, 0, 1] }}>
+                <Canvas camera={{ position: [0, 0, 1] }} dpr={[1, 2]} gl={{ antialias: false }}>
                     <StarField config={config} />
                 </Canvas>
             </div>
