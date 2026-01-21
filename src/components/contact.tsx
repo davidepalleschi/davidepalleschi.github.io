@@ -31,7 +31,7 @@ export function Contact() {
                     className="flex flex-col gap-4 min-[400px]:flex-row pt-8"
                 >
                     <Button size="lg" className="px-8" asChild>
-                        <Link href="mailto:davidepalleschi96@gmail.com">
+                        <Link href="mailto:davide@palleschi.dev">
                             <Icons.mail className="mr-2 h-4 w-4" /> Email Me
                         </Link>
                     </Button>
