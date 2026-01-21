@@ -28,26 +28,19 @@ export function About() {
                 className="mx-auto mt-16 max-w-7xl text-lg text-muted-foreground leading-relaxed space-y-6"
             >
                 <p>
-                    I am an AI Engineer currently working at <span className="text-foreground font-medium">DeepPlants</span>,
-                    with a specific focus on <span className="text-foreground font-medium">Generative AI</span> and
-                    <span className="text-foreground font-medium"> Large Language Models (LLMs)</span>.
-                    My professional approach covers the entire lifecycle of AI development: from the research-heavy side of
-                    Fine-Tuning models to the architectural challenge of building autonomous Agentic Systems.
+                    I am an <span className="text-foreground font-medium">Applied AI Engineer</span> driven by the challenge of making intelligent systems reliable, scalable, and autonomous.
+                    My work sits at the intersection of <span className="text-foreground font-medium">Generative AI</span> and <span className="text-foreground font-medium">Real-World Application</span>,
+                    where I focus on building tools that don't just "think" but "act" to solve complex problems.
                 </p>
                 <p>
-                    I hold a Master’s Degree in <span className="text-foreground font-medium">Artificial Intelligence and Robotics</span>,
-                    with a thesis titled &quot;Privacy-oriented Object Detection: Detecting People and Actions in Low-Resolution Images&quot;.
-                    While my academic roots are in Computer Vision and YOLOv8, I have successfully transitioned my engineering mindset to NLP,
-                    applying rigorous testing to model reasoning.
+                    What really excites me is the potential of <span className="text-foreground font-medium">Multi-Agent Systems</span> and <span className="text-foreground font-medium">IoT</span>.
+                    I love designing architectures where AI agents can autonomously reason, plan, and interact with the physical world—whether it's optimizing flows in a smart home or orchestrating complex data pipelines.
+                    I believe the future of AI isn't just in better models, but in how we integrate them into the fabric of our daily lives.
                 </p>
                 <p>
-                    My technical expertise centers on <span className="text-foreground font-medium">Python</span>,
-                    <span className="text-foreground font-medium"> PyTorch</span>, and <span className="text-foreground font-medium">Hugging Face</span>.
-                    I specialize in optimizing models using LoRA/PEFT techniques and orchestrating complex, tool-using agents with
-                    LangGraph and LangChain. I excel in creating evaluation pipelines to measure model reliability and ensure robust performance.
-                </p>
-                <p>
-                    Beyond professional work, I am interested in IoT and smart home technologies, exploring how AI can interact with the physical world.
+                    My projects reflect this philosophy: from researching <span className="text-foreground font-medium">Privacy-Oriented Object Detection</span> to ensure surveillance respects personal identity,
+                    to engineering robust <span className="text-foreground font-medium">RAG</span> systems that turn chaotic data into actionable insights.
+                    I bring a rigorous engineering mindset to every challenge, ensuring that even the most experimental AI concepts are grounded in solid, production-ready code.
                 </p>
             </motion.div>
         </section>

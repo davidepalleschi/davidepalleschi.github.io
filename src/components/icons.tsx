@@ -11,6 +11,7 @@ import {
     ExternalLink,
     Settings,
     Calendar,
+    Download,
 } from "lucide-react";
 
 export const Icons = {
@@ -26,4 +27,5 @@ export const Icons = {
     externalLink: ExternalLink,
     settings: Settings,
     calendar: Calendar,
+    download: Download,
 };

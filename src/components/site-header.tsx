@@ -7,6 +7,7 @@ import { Icons } from "@/components/icons";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import { ModeToggle } from "@/components/mode-toggle";
 
 const navItems = [
     { name: "About", href: "/#about" },
@@ -54,6 +55,7 @@ export function SiteHeader() {
                             <span className="sr-only">LinkedIn</span>
                         </div>
                     </Link>
+                    <ModeToggle />
                 </div>
 
                 {/* Mobile Menu Toggle */}

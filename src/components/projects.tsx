@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+
 import { motion } from "framer-motion";
 import { projects } from "@/data/projects";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -10,6 +12,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export function Projects() {
+    const [showAll, setShowAll] = useState(false);
     const sortedProjects = [...projects].sort((a, b) =>
         new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
     );
@@ -31,6 +34,7 @@ export function Projects() {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: index * 0.1 }}
                         viewport={{ once: true }}
+                        className={!showAll ? (index >= 6 ? "hidden" : (index >= 4 ? "hidden lg:block" : "")) : ""}
                     >
                         <Card className="h-full flex flex-col overflow-hidden hover:shadow-lg transition-shadow duration-300">
                             <Link href={`/projects/${project.slug}`} className="block relative aspect-video overflow-hidden group-hover:shadow-md transition-all cursor-pointer">
@@ -69,9 +73,16 @@ export function Projects() {
                                 </div>
 
                                 <div className="flex gap-2 w-full mt-auto">
-                                    <Button variant="default" className="w-full text-xs h-8" asChild>
+                                    <Button variant="default" className="flex-1 text-xs h-8" asChild>
                                         <Link href={`/projects/${project.slug}`}>View Details</Link>
                                     </Button>
+                                    {project.links?.repo && (
+                                        <Button variant="ghost" size="icon" asChild title="View Repository">
+                                            <Link href={project.links.repo} target="_blank">
+                                                <Icons.gitHub className="h-4 w-4" />
+                                            </Link>
+                                        </Button>
+                                    )}
                                     {project.links?.demo && (
                                         <Button variant="ghost" size="icon" asChild title="View Demo">
                                             <Link href={project.links.demo} target="_blank">
@@ -85,6 +96,14 @@ export function Projects() {
                     </motion.div>
                 ))}
             </div>
+
+            {sortedProjects.length > 4 && (
+                <div className={`flex justify-center mt-8 ${sortedProjects.length <= 6 ? "lg:hidden" : ""}`}>
+                    <Button variant="outline" onClick={() => setShowAll(!showAll)}>
+                        {showAll ? "Show Less" : "Show More Projects"}
+                    </Button>
+                </div>
+            )}
         </section>
     );
 }

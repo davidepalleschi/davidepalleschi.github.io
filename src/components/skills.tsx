@@ -9,7 +9,7 @@ const skillCategories = [
     {
         category: "AI & ML",
         icon: "brain",
-        items: ["Python", "PyTorch", "Hugging Face", "LLMs", "RAG", "LangChain", "YOLO", "Computer Vision", "Fine-Tuning", "LoRA/PEFT"],
+        items: ["Python", "PyTorch", "Hugging Face", "LLMs", "RAG", "LangChain", "Fine-Tuning", "LoRA/PEFT", "YOLO", "Computer Vision"],
         color: "group-hover:text-purple-500",
         border: "hover:border-purple-500/50",
         bg: "hover:bg-purple-500/5",

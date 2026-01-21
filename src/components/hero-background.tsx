@@ -10,6 +10,9 @@ import { Slider } from "@/components/ui/slider";
 import { Button } from "@/components/ui/button";
 import { Icons } from "@/components/icons";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTheme } from "next-themes";
+import { useEffect } from "react";
+
 
 interface StarFieldProps {
     config: {
@@ -25,7 +28,6 @@ interface StarFieldProps {
 
 function StarField({ config }: StarFieldProps) {
     const ref = useRef<any>(null);
-    const [clicked, setClicked] = useState(false);
 
     // Re-generate sphere positions when config changes
     const sphere = useMemo(() => {
@@ -120,39 +122,61 @@ function StarField({ config }: StarFieldProps) {
 
     return (
         <group rotation={[0, 0, Math.PI / 4]}>
-            <Points ref={ref} positions={sphere} stride={3} frustumCulled={false} onClick={() => setClicked(!clicked)}>
+            <Points ref={ref} positions={sphere} stride={3} frustumCulled={false}>
                 <PointMaterial
                     transparent
-                    color={clicked ? "#aa88ff" : config.color}
+                    color={config.color}
                     size={config.size}
                     sizeAttenuation={true}
                     depthWrite={false}
                 />
             </Points>
-            <mesh
-                visible={false}
-                onClick={() => setClicked(!clicked)}
-                onPointerOver={() => document.body.style.cursor = 'pointer'}
-                onPointerOut={() => document.body.style.cursor = 'auto'}
-            >
-                <sphereGeometry args={[2, 16, 16]} />
-                <meshBasicMaterial />
-            </mesh>
         </group>
     );
 }
 
+
+// Custom hook to detect actual theme including system preference
+function useActualTheme() {
+    const { theme, systemTheme } = useTheme();
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    if (!mounted) return "dark"; // Default to dark server-side to match initial state
+    
+    if (theme === "system") {
+        return systemTheme || "dark";
+    }
+    return theme || "dark";
+}
+
 export function HeroBackground() {
     const [isOpen, setIsOpen] = useState(false);
+    const actualTheme = useActualTheme();
+    
+    // Determine start color based on theme
+    // Light mode: dark stars (#18181b / zinc-950)
+    // Dark mode: white stars
+    const starColor = actualTheme === "light" ? "#18181b" : "#ffffff";
+
     const [config, setConfig] = useState({
-        count: 1200,
+        count: 2000,
         size: 0.025,
         minRadius: 1.5,
         maxRadius: 7.0,
-        rotationSpeed: 0.08, // Adjusted to 0.08 as 0.8 would be extremely fast based on delta
+        rotationSpeed: 0.08, 
         cursorInfluence: 0.1,
-        color: "#ffffff"
+        color: starColor
     });
+
+    // Update config when theme changes
+    useEffect(() => {
+        setConfig(prev => ({ ...prev, color: starColor }));
+    }, [starColor]);
+
 
     return (
         <>

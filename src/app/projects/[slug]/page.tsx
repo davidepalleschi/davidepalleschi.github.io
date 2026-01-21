@@ -112,7 +112,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                     )}
 
                     {/* Content */}
-                    <article className="prose prose-zinc dark:prose-invert max-w-none">
+                    <article className="prose prose-zinc dark:prose-invert max-w-none text-foreground prose-headings:text-foreground prose-strong:text-foreground prose-a:text-primary">
                         <ReactMarkdown
                             rehypePlugins={[rehypeRaw]}
                             components={{

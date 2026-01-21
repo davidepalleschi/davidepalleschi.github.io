@@ -24,7 +24,7 @@ export function Hero() {
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
-                        className="text-5xl font-extrabold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl text-white"
+                        className="text-5xl font-extrabold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl text-foreground"
                     >
                         Davide Palleschi
                     </motion.h1>
@@ -33,9 +33,9 @@ export function Hero() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
-                        className="max-w-[700px] text-lg text-gray-300 md:text-xl font-light"
+                        className="max-w-[700px] text-lg text-muted-foreground md:text-xl font-light"
                     >
-                        AI Engineer & Full Stack Developer.<br />
+                        Applied AI Engineer.<br />
                         Building intelligent systems that bridge the gap between research and reality.
                     </motion.p>
 
@@ -46,13 +46,18 @@ export function Hero() {
                         className="flex flex-col gap-4 sm:flex-row mt-8"
                     >
                         <Link href="#projects">
-                            <Button size="lg" className="gap-2 bg-white text-black hover:bg-gray-200">
+                            <Button size="lg" className="gap-2">
                                 View Projects <Icons.code className="h-4 w-4" />
                             </Button>
                         </Link>
                         <Link href="#contact">
-                            <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10 hover:text-white">
+                            <Button variant="outline" size="lg">
                                 Contact Me
+                            </Button>
+                        </Link>
+                        <Link href="/assets/docs/CV_Palleschi.pdf" target="_blank" rel="noopener noreferrer">
+                            <Button variant="secondary" size="lg" className="gap-2">
+                                Download CV <Icons.download className="h-4 w-4" />
                             </Button>
                         </Link>
                     </motion.div>
